@@ -1,0 +1,12 @@
+#grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin: 50px;
+}
+
+#grid div {
+    border: 1px red solid;
+    height: 200px;
+
+}
+

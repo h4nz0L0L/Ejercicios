@@ -1,0 +1,12 @@
+.footer {
+    z-index:2;
+    margin-top:-4em;
+    position:relative;
+    width:100%;
+    display:block;
+    float:left;
+  }
+  .footer .wrapper {
+    height:200px;
+    background:#003a6f;
+  }
