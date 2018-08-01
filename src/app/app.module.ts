@@ -13,6 +13,9 @@ import { HeaderComponent } from './header/header.component';
 import { ContenidoComponent } from './contenido/contenido.component';
 import { AnuncioComponent } from './anuncio/anuncio.component';
 import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
+import { VelocidadComponent } from './velocidad/velocidad.component';
+import { ToolComponent } from './tool/tool.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
     HeaderComponent,
     ContenidoComponent,
     AnuncioComponent,
-    PiePaginaComponent
+    PiePaginaComponent,
+    VelocidadComponent,
+    ToolComponent,
+    UsuariosComponent
   ],
   imports: [
     BrowserModule
