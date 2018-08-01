@@ -2,7 +2,7 @@ nav {
     position : absolute;
     left : 0;
     width : 100%;
-    background : url(nav.png);
+    background : url(/assets/nav.png);
     }
     nav ul {
     margin : 0 auto;

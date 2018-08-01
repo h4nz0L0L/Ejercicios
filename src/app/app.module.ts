@@ -11,6 +11,8 @@ import { PortadaComponent } from './portada/portada.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ContenidoComponent } from './contenido/contenido.component';
+import { AnuncioComponent } from './anuncio/anuncio.component';
+import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ContenidoComponent } from './contenido/contenido.component';
     PortadaComponent,
     FooterComponent,
     HeaderComponent,
-    ContenidoComponent
+    ContenidoComponent,
+    AnuncioComponent,
+    PiePaginaComponent
   ],
   imports: [
     BrowserModule
